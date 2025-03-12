@@ -26,7 +26,7 @@ const NvsApp = () => {
   };
 
   return (
-    <div>
+    <div className="card p-3 mt-3">
       <h1>Danh sách thành viên</h1>
       <NvsMemberList members={members} removeMember={removeMember} updateMember={updateMember}/>
       <NvsMemberAdd addMember={addMember} />
